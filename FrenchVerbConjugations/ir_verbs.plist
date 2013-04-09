@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>finir</key>
+	<string>to finish|je finis~tu finis~il finit~elle finit~nous finissons~vous finissez~ils finissent~elles finissent</string>
+	<key>choisir</key>
+	<string>to choose|je choisis~tu choisis~il choisit~elle choisit~nous choisissons~vous choisissez~ils choisissent~elles choisissent</string>
+	<key>agir</key>
+	<string>to act|j&apos;agis~tu agis~il agit~elle agit~nous agissons~vous agissez~ils agissent~elles agissent</string>
+</dict>
+</plist>

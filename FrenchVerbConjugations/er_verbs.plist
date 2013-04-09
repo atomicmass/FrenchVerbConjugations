@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>parler</key>
+	<string>to speak|je parle~tu parles~il parle~elle parle~nous parlons~vous parlez~ils parlent~elles parlent</string>
+	<key>chanter</key>
+	<string>to sing|je chante~~u chantes~il chante~elle chante~nous chantons~vous chantez~ils chantent~elles chantent</string>
+	<key>dancer</key>
+	<string>to dance|je danse~tu danses~il danse~elle danse~nous dansons~vous dansez~ils dansent~elles dansent</string>
+	<key>penser</key>
+	<string>to think|je pense~tu penses~il pense~elle pense~nous penson~vous pensez~ils pensent~elles pensent</string>
+	<key>manger</key>
+	<string>to eat|je mange~tu manges~il mange~elle mange~nous mangeons~vous mangez~ils mangent~elles mangent</string>
+	<key>arriver</key>
+	<string>to arrive|je arrive~tu arrives~il arrive~elle arrive~nous arrivons~vous arrivez~ils arrivent~elles arrivent</string>
+	<key>monter</key>
+	<string>to go up|je monte~tu montes~il monte~elle monte~nous montons~vous montez~ils montent~elles montent</string>
+	<key>quitter</key>
+	<string>to leave|je quitte~tu quittes~il quitte~elle quitte~nous quittons~vous quittez~ils quittent~elles quittent</string>
+	<key>travailler</key>
+	<string>to work|je travaille~tu travailles~il travaille~elle travaille~nous travaillons~vous travaillez~ils travaillent~elles travaillent</string>
+	<key>regarder</key>
+	<string>to watch|je regarde~tu regardes~il regarde~elle regarde~nous regardons~vous regardez~ils regardent~elles regardent</string>
+	<key>returner</key>
+	<string>to return|je retourne~tu retournes~il retourne~elle retourne~nous retournons~vous retournez~ils retournent~elles retournent</string>
+	<key>rester</key>
+	<string>to rest|je reste~tu restes~il reste~elle reste~nous restons~vous restez~ils restent~elles restent</string>
+	<key>aimer</key>
+	<string>to like|j&apos;aime~tu aimes~il aime~elle aime~nous aimons~vous aimez~ils aiment~elles aiment</string>
+	<key>apporter</key>
+	<string>to bring|j&apos;apporte~tu apportes~il apporte~elle apporte~nous apprtons~vous apportez~ils apportent~ellese apportent</string>
+	<key>adore</key>
+	<string>to love|j&apos;adore~to adores~il adore~elle adore~nous adorons~vous adorez~ils adorent~elles adorent</string>
+	<key>aider</key>
+	<string>to help|j&apos;aide~tu aides~il aide~elle aide~nous aidons~vous aidez~ils aident~elles aident</string>
+	<key>chercher</key>
+	<string>to look for|je cherche~tu cherches~il cherche~elle cherche~nous cherchons~vous cherchez~ils cherchent~elles cherchent</string>
+	<key>cacher</key>
+	<string>to hide|je cache~tu caches~ilchache~elle cache~nous cachons~vous cachez~ils cachent~elles cachent</string>
+</dict>
+</plist>

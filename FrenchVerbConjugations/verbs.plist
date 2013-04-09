@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>All</key>
+	<string>*</string>
+	<key>Verbs ending in &quot;er&quot;</key>
+	<string>er_verbs</string>
+	<key>Verbs ending in &quot;ir&quot;</key>
+	<string>ir_verbs</string>
+	<key>Verbd ending in &quot;re&quot;</key>
+	<string>re_verbs</string>
+	<key>Reflexive verbs</key>
+	<string>reflex_verbs</string>
+	<key>Irregular verbs</key>
+	<string>irr_verbs</string>
+</dict>
+</plist>

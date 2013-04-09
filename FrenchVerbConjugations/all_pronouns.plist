@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>je</key>
+	<string>I|Je suis un home</string>
+	<key>tu</key>
+	<string>you~informal|Tu es une femme</string>
+	<key>il</key>
+	<string>he|Il a une voituré verte </string>
+	<key>elle</key>
+	<string>she|Elle est grande</string>
+	<key>nous</key>
+	<string>we|Nous sommes aller</string>
+	<key>vous</key>
+	<string>you~plural or formal singular|Vous avez des baguettes</string>
+	<key>mon</key>
+	<string>my~masculine singular|C&apos;est mon chien</string>
+	<key>ma</key>
+	<string>my~feminine singular|Il est ma sœur</string>
+	<key>mes</key>
+	<string>my~plural|Mes amis sont grands</string>
+	<key>son</key>
+	<string>his/her~masculine|Son chien marron</string>
+	<key>sa</key>
+	<string>his/her~feminine|Sa chatte noire</string>
+	<key>ses</key>
+	<string>his/her~plural|Ses grands chevals</string>
+	<key>leur</key>
+	<string>their|C&apos;est leur enfant</string>
+	<key>nos</key>
+	<string>our~plural|Nos chiens</string>
+</dict>
+</plist>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>la chaise</key>
+	<string>chair~f|Le chat et sur la chaise</string>
+	<key>la mère</key>
+	<string>mother~f|Voici ma mère</string>
+	<key>la jupe</key>
+	<string>skirt~f|Ma jupe est rouge</string>
+	<key>la robe</key>
+	<string>dress~f|Ta jolie robe noire</string>
+	<key>la femme</key>
+	<string>woman~f|Je suis une grande femme</string>
+	<key>la chemise</key>
+	<string>shirt~f|Ma chemise est sale</string>
+	<key>la chaussure</key>
+	<string>shoe~f|J&apos;ai les chaussures rouges</string>
+	<key>la maison</key>
+	<string>house~f|Je quitte la maison</string>
+	<key>l&apos;amie</key>
+	<string>friend~f|Mes amies sont jolies</string>
+	<key>la sœur</key>
+	<string>sister~f|Ma sœur </string>
+	<key>la voix</key>
+	<string>voice~f|Sa voix est jolie</string>
+	<key>la fleur</key>
+	<string>flower~f|J&apos;aime ses fleurs</string>
+	<key>la voituré</key>
+	<string>car~f|Il a une voituré rouge</string>
+</dict>
+</plist>

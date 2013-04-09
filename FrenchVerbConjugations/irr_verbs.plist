@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>être</key>
+	<string>to be|je suis~tu es~il est~elle est~nous sommes~vous êtes~ils sont~elles sont</string>
+	<key>avoir</key>
+	<string>to have|j&apos;ais~tu as~il a~elle a~nous avons~vous avez~ils ont~elles ont</string>
+	<key>aller</key>
+	<string>to go|je vais~tu vas~il va~elle va~nous allons~vous allez~ils vont~elles vont</string>
+	<key>boire</key>
+	<string>to drink|je bois~tu bois~il boit~elle boit~nous buvons~vous buvez~ils boivent~elles boivent</string>
+	<key>venir</key>
+	<string>to come|je viens~tu viens~il vient~elle vient~nous venons~vous venez~ils viennent~elles viennent</string>
+	<key>sortir</key>
+	<string>to exit|je sors~tu sors~il sort~elle sort~nous sortons~vous sortez~ils sortent~elles sortent</string>
+	<key>revenir</key>
+	<string>to come back|je reviens~tu reviens~il revient~elle revient~nous revenons~vous revenez~ils reviennent~elles reviennent</string>
+	<key>savoir</key>
+	<string>to know|je sais~tu sais~il sait~elle sait~nous savons~vous savez~ils savent~elles savent</string>
+	<key>vouloir</key>
+	<string>to want|je veux~to veux~il veut~elle veut~nous voulons~vous voulez~ils veulent~elles veulent</string>
+	<key>devoir</key>
+	<string>to have to/to owe|je dois~tu dois~il doit~elle doit~nous devons~vous devez~ils doivent~elles doivent</string>
+	<key>partir</key>
+	<string>to leave|je pars~tu pars~il part~elle part~nous partons~vous partez~ils partent~elles partent</string>
+	<key>connaître</key>
+	<string>to know|je connais~to connais~il connaît~elle connaît~nous connaissons~vous connaissez~ils connaissent~elles connaissent</string>
+	<key>commencer</key>
+	<string>to begin|je commence~tu commences~il commence~elle commence~nous commençons~vous commencez~ils commencent~elles commencent</string>
+</dict>
+</plist>

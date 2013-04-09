@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>le vin</key>
+	<string>wine~m|Le vin est bon</string>
+	<key>le livre</key>
+	<string>book~m|Je lis le livre</string>
+	<key>l&apos;homme</key>
+	<string>man~m|Je suis un homme</string>
+	<key>le chien</key>
+	<string>dog~m|Il a un chien noir</string>
+	<key>le citron</key>
+	<string>lemon~m|Tu manges un citron</string>
+	<key>le cheval</key>
+	<string>horse~m|C&apos;est mon cheval</string>
+	<key>le garçon</key>
+	<string>boy~m|Les garçons chantent</string>
+	<key>le riz</key>
+	<string>rice~m|J&apos;aime le riz</string>
+	<key>le lait</key>
+	<string>milk~m|J&apos;aime boire du lait</string>
+	<key>le menu</key>
+	<string>menu~m|Elle écrit le menu</string>
+	<key>le poulet</key>
+	<string>chicken~m|Nous mangeons du poulet</string>
+	<key>l&apos;éléphant</key>
+	<string>elephant~m|J&apos;ai des éléphants noirs</string>
+	<key>le pain</key>
+	<string>bread~m|Du pain et une tomate, s&apos;il vous plait</string>
+	<key>le repas</key>
+	<string>meal~m|Je manges mon mon repas</string>
+	<key>le manteau</key>
+	<string>coat~m|Mon manteau est chaud</string>
+	<key>le pantalon</key>
+	<string>pants~m|Mon pantalon a une poche</string>
+	<key>le légume</key>
+	<string>vegetable~m|Ils mangent des légumes verts</string>
+	<key>le chapeau</key>
+	<string>hat~m|Ils ont des chapeaux</string>
+	<key>le déjeuner</key>
+	<string>lunch~m|Il mange son déjeuner</string>
+	<key>le sandwich</key>
+	<string>sandwich~m|Mon déjeuner : Des sandwichs et fromage</string>
+	<key>le fromage</key>
+	<string>cheese~m|Le fromage est bon</string>
+</dict>
+</plist>

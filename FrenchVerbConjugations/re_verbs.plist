@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>apprendre</key>
+	<string>to learn|j&apos;apprends~tu apprends~il apprend~elle apprend~nous apprenons~vous apprenez~ils apprennent~elles apprennent</string>
+	<key>attendre</key>
+	<string>to wait for|j&apos;attends~tu attends~il attend~elle attend~nous attendons~vous attendez~ils attendent~elles attendent</string>
+</dict>
+</plist>
