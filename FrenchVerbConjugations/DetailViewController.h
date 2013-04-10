@@ -8,15 +8,11 @@
 
 #import <UIKit/UIKit.h>
 
-@interface DetailViewController : UIViewController
+@interface DetailViewController : UIViewController <UICollectionViewDelegate, UICollectionViewDataSource, UICollectionViewDelegateFlowLayout>
+
+@property (strong, nonatomic) UICollectionView *collectionView;
 
 @property (strong, nonatomic) NSDictionary *verbList;
 @property (strong, nonatomic) NSArray *verbListKeys;
-@property (nonatomic) NSInteger currentIndex;
-
-- (IBAction)nextWord:(id)sender;
-@property (weak, nonatomic) IBOutlet UILabel *labelConjugations;
-@property (weak, nonatomic) IBOutlet UILabel *labelTranslation;
-@property (weak, nonatomic) IBOutlet UILabel *detailDescriptionLabel;
 
 @end

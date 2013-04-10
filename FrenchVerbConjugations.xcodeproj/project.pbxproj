@@ -34,13 +34,13 @@
 		144616B4170B0E43008B1ABC /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 144616B3170B0E43008B1ABC /* Default@2x.png */; };
 		144616B6170B0F47008B1ABC /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 144616B5170B0F47008B1ABC /* Default-568h@2x.png */; };
 		144616EB170B5315008B1ABC /* SearchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 144616EA170B5315008B1ABC /* SearchViewController.m */; };
-		145A00F81712B80200529E39 /* WordCollectionCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 145A00F71712B80200529E39 /* WordCollectionCell.m */; };
 		14634373170DF8AF0062B1E4 /* bg640_960.png in Resources */ = {isa = PBXBuildFile; fileRef = 14634371170DF8AF0062B1E4 /* bg640_960.png */; };
 		14634374170DF8AF0062B1E4 /* bg640_960@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 14634372170DF8AF0062B1E4 /* bg640_960@2x.png */; };
 		14634376170E97CB0062B1E4 /* sections.plist in Resources */ = {isa = PBXBuildFile; fileRef = 14634375170E97CB0062B1E4 /* sections.plist */; };
 		14634378170E9F180062B1E4 /* pronouns.plist in Resources */ = {isa = PBXBuildFile; fileRef = 14634377170E9F180062B1E4 /* pronouns.plist */; };
 		1463437C170EB91D0062B1E4 /* all_pronouns.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1463437B170EB91D0062B1E4 /* all_pronouns.plist */; };
 		1463437E170EB9310062B1E4 /* m_pronouns.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1463437D170EB9310062B1E4 /* m_pronouns.plist */; };
+		147D226F1714933A005E817D /* WordCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 147D226E1714933A005E817D /* WordCell.m */; };
 		14BB5C591714526F00D40A46 /* re_verbs.plist in Resources */ = {isa = PBXBuildFile; fileRef = 14BB5C581714526F00D40A46 /* re_verbs.plist */; };
 /* End PBXBuildFile section */
 
@@ -79,14 +79,14 @@
 		144616B5170B0F47008B1ABC /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		144616E9170B5315008B1ABC /* SearchViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SearchViewController.h; sourceTree = "<group>"; };
 		144616EA170B5315008B1ABC /* SearchViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SearchViewController.m; sourceTree = "<group>"; };
-		145A00F61712B80200529E39 /* WordCollectionCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WordCollectionCell.h; sourceTree = "<group>"; };
-		145A00F71712B80200529E39 /* WordCollectionCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WordCollectionCell.m; sourceTree = "<group>"; };
 		14634371170DF8AF0062B1E4 /* bg640_960.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = bg640_960.png; path = "External resources/bg640_960.png"; sourceTree = SOURCE_ROOT; };
 		14634372170DF8AF0062B1E4 /* bg640_960@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "bg640_960@2x.png"; path = "External resources/bg640_960@2x.png"; sourceTree = SOURCE_ROOT; };
 		14634375170E97CB0062B1E4 /* sections.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = sections.plist; sourceTree = "<group>"; };
 		14634377170E9F180062B1E4 /* pronouns.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = pronouns.plist; sourceTree = "<group>"; };
 		1463437B170EB91D0062B1E4 /* all_pronouns.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = all_pronouns.plist; sourceTree = "<group>"; };
 		1463437D170EB9310062B1E4 /* m_pronouns.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = m_pronouns.plist; sourceTree = "<group>"; };
+		147D226D1714933A005E817D /* WordCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WordCell.h; sourceTree = "<group>"; };
+		147D226E1714933A005E817D /* WordCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WordCell.m; sourceTree = "<group>"; };
 		14BB5C581714526F00D40A46 /* re_verbs.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = re_verbs.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -148,9 +148,9 @@
 				1436405616F19EDF007EA29F /* DetailViewController.m */,
 				144616E9170B5315008B1ABC /* SearchViewController.h */,
 				144616EA170B5315008B1ABC /* SearchViewController.m */,
+				147D226D1714933A005E817D /* WordCell.h */,
+				147D226E1714933A005E817D /* WordCell.m */,
 				1436403E16F19EDF007EA29F /* Supporting Files */,
-				145A00F61712B80200529E39 /* WordCollectionCell.h */,
-				145A00F71712B80200529E39 /* WordCollectionCell.m */,
 			);
 			path = FrenchVerbConjugations;
 			sourceTree = "<group>";
@@ -285,7 +285,7 @@
 				1436405416F19EDF007EA29F /* MasterViewController.m in Sources */,
 				1436405716F19EDF007EA29F /* DetailViewController.m in Sources */,
 				144616EB170B5315008B1ABC /* SearchViewController.m in Sources */,
-				145A00F81712B80200529E39 /* WordCollectionCell.m in Sources */,
+				147D226F1714933A005E817D /* WordCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

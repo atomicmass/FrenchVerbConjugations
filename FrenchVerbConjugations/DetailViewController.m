@@ -7,16 +7,15 @@
 //
 
 #import "DetailViewController.h"
+#import "WordCell.h"
 
 @interface DetailViewController ()
-- (void)configureView;
 @end
 
 @implementation DetailViewController
 
 @synthesize verbList;
 @synthesize verbListKeys;
-@synthesize currentIndex;
 
 
 #pragma mark - Managing the detail item
@@ -25,18 +24,12 @@
     if (verbList != newVerbList) {
         verbList = newVerbList;
         verbListKeys = [self shuffle:[newVerbList allKeys]];
-        currentIndex = 0;
     
-        // Update the view.
-        [self configureView];
     }
 }
 
-- (void)configureView
+/*- (void)configureView
 {
-    NSLog(@"conf %i", currentIndex);
-    // Update the user interface for the detail item.
-
     if (self.verbList) {
         NSString *key = [verbListKeys objectAtIndex:currentIndex];
         self.detailDescriptionLabel.text = key;
@@ -46,51 +39,40 @@
         self.labelTranslation.text = [[p objectAtIndex:0] stringByReplacingOccurrencesOfString:@"~" withString:@"\n"];
         self.labelConjugations.text = [[p objectAtIndex:1] stringByReplacingOccurrencesOfString:@"~" withString:@"\n"];
     }
-}
+}*/
 
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-	// Do any additional setup after loading the view, typically from a nib.
-    [self configureView];
-    
-    UISwipeGestureRecognizer *swipeLeft = [[UISwipeGestureRecognizer alloc] initWithTarget:self action:@selector(oneFingerSwipeLeft:)];
-    [swipeLeft setDirection:UISwipeGestureRecognizerDirectionLeft];
-    [[self view] addGestureRecognizer:swipeLeft];
-    
-    UISwipeGestureRecognizer *swipeRight = [[UISwipeGestureRecognizer alloc] initWithTarget:self action:@selector(oneFingerSwipeRight:)];
-    [swipeRight setDirection:UISwipeGestureRecognizerDirectionRight];
-    [[self view] addGestureRecognizer:swipeRight];
+    [self.collectionView registerClass:[WordCell class] forCellWithReuseIdentifier:@"Cell"];
 }
 
-- (void)oneFingerSwipeLeft:(UITapGestureRecognizer *)recognizer {
-    [self nextWord:nil];
-}
-
-- (void)oneFingerSwipeRight:(UITapGestureRecognizer *)recognizer {
-    [self previousWord];
+-(void) loadView
+{
+    self.view = [[UIView alloc]initWithFrame:[[UIScreen mainScreen] bounds]];
+    
+    // Create a flow layout for the collection view that scrolls
+    // horizontally and has no space between items
+    UICollectionViewFlowLayout *flowLayout = [[UICollectionViewFlowLayout alloc] init];
+    flowLayout.scrollDirection = UICollectionViewScrollDirectionHorizontal;
+    flowLayout.minimumLineSpacing = 0;
+    flowLayout.minimumInteritemSpacing = 0;
+    
+    // Set up the collection view with no scrollbars, paging enabled
+    // and the delegate and data source set to this view controller
+    self.collectionView = [[UICollectionView alloc] initWithFrame:self.view.frame collectionViewLayout:flowLayout];
+    self.collectionView.showsHorizontalScrollIndicator = NO;
+    self.collectionView.pagingEnabled = YES;
+    self.collectionView.delegate = self;
+    self.collectionView.dataSource = self;
+    self.collectionView.backgroundColor = [UIColor whiteColor];
+    [self.view addSubview:self.collectionView];
 }
 
 - (void)didReceiveMemoryWarning
 {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
-}
-
-- (IBAction)nextWord:(id)sender {
-    currentIndex++;
-    if(currentIndex >= verbListKeys.count) {
-        currentIndex = 0;
-    }
-    [self configureView];
-}
-
-- (void)previousWord {
-    currentIndex--;
-    if(currentIndex < 0) {
-        currentIndex = verbListKeys.count-1;
-    }
-    [self configureView];
 }
 
 - (NSArray *)shuffle:(NSArray *)input
@@ -106,4 +88,31 @@
     
     return keys;
 }
+
+- (NSInteger)collectionView:(UICollectionView *)collectionView numberOfItemsInSection:(NSInteger)section
+{
+    return verbListKeys.count;
+}
+
+- (UICollectionViewCell *)collectionView:(UICollectionView *)collectionView cellForItemAtIndexPath:(NSIndexPath *)indexPath
+{
+    // Dequeue a prototype cell and set the label to indicate the page
+    NSString *key = [verbListKeys objectAtIndex:indexPath.row];
+    WordCell *cell = [collectionView dequeueReusableCellWithReuseIdentifier:@"Cell" forIndexPath:indexPath];
+    
+    NSArray *p = [[verbList objectForKey:key] componentsSeparatedByString:@"|"];
+    
+    cell.labelWord.text = key;
+    cell.labelTranslation.text = [[p objectAtIndex:0] stringByReplacingOccurrencesOfString:@"~" withString:@"\n"];
+    cell.labelDetails.text = [[p objectAtIndex:1] stringByReplacingOccurrencesOfString:@"~" withString:@"\n"];
+        
+    return cell;
+}
+
+- (CGSize)collectionView:(UICollectionView *)collectionView layout:(UICollectionViewLayout *)collectionViewLayout
+  sizeForItemAtIndexPath:(NSIndexPath *)indexPath
+{
+    return collectionView.bounds.size;
+}
+
 @end

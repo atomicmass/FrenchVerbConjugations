@@ -132,63 +132,16 @@
                                     <action selector="nextWord:" destination="21" eventType="touchUpInside" id="eYw-XR-ifG"/>
                                 </connections>
                             </button>
-                            <label clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" text="parler" textAlignment="center" lineBreakMode="tailTruncation" minimumFontSize="10" translatesAutoresizingMaskIntoConstraints="NO" id="27">
-                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="53" id="bXb-iN-Zqu"/>
-                                </constraints>
-                                <fontDescription key="fontDescription" type="boldSystem" pointSize="26"/>
-                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" preferredMaxLayoutWidth="280" translatesAutoresizingMaskIntoConstraints="NO" id="3a0-P8-hRV">
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="363" id="Sdp-Mj-2Hd"/>
-                                </constraints>
-                                <string key="text">je parle
-tu parles
-il parle
-elle parle
-nous parlon
-vous parlez
-ils parlent
-elles parlent</string>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="to speak" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" preferredMaxLayoutWidth="280" translatesAutoresizingMaskIntoConstraints="NO" id="OWK-ya-KLG">
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="48" id="xfJ-wW-TBY"/>
-                                </constraints>
-                                <fontDescription key="fontDescription" type="italicSystem" pointSize="13"/>
-                                <color key="textColor" red="0.47892776129999998" green="0.59206247329999995" blue="0.93843412400000004" alpha="1" colorSpace="calibratedRGB"/>
-                                <nil key="highlightedColor"/>
-                            </label>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                         <constraints>
-                            <constraint firstItem="27" firstAttribute="top" secondItem="22" secondAttribute="top" constant="20" symbolic="YES" type="default" id="0Co-ng-V0l"/>
-                            <constraint firstItem="OWK-ya-KLG" firstAttribute="top" secondItem="22" secondAttribute="top" constant="52" id="1JG-dQ-QVj"/>
-                            <constraint firstItem="3a0-P8-hRV" firstAttribute="leading" secondItem="22" secondAttribute="leading" constant="20" symbolic="YES" type="default" id="3OK-pe-v9x"/>
-                            <constraint firstAttribute="trailing" secondItem="3a0-P8-hRV" secondAttribute="trailing" constant="20" symbolic="YES" type="default" id="7Ym-hp-LLC"/>
                             <constraint firstItem="ldX-0K-Neg" firstAttribute="top" secondItem="22" secondAttribute="top" type="default" id="BUg-g9-7nJ"/>
-                            <constraint firstAttribute="bottom" secondItem="3a0-P8-hRV" secondAttribute="bottom" constant="20" symbolic="YES" type="default" id="Ewz-fL-8eN"/>
-                            <constraint firstAttribute="trailing" secondItem="OWK-ya-KLG" secondAttribute="trailing" constant="20" symbolic="YES" type="default" id="O0p-WE-su0"/>
-                            <constraint firstItem="OWK-ya-KLG" firstAttribute="leading" secondItem="22" secondAttribute="leading" constant="20" symbolic="YES" type="default" id="QLF-Xq-OZX"/>
-                            <constraint firstItem="27" firstAttribute="leading" secondItem="22" secondAttribute="leading" constant="20" symbolic="YES" type="default" id="R0m-z7-TWk"/>
                             <constraint firstItem="ldX-0K-Neg" firstAttribute="leading" secondItem="22" secondAttribute="leading" type="default" id="deb-IL-rhg"/>
-                            <constraint firstAttribute="trailing" secondItem="27" secondAttribute="trailing" constant="20" symbolic="YES" type="default" id="pRe-qY-58T"/>
                             <constraint firstItem="ldX-0K-Neg" firstAttribute="centerY" secondItem="22" secondAttribute="centerY" type="default" id="vdo-8M-zE0"/>
                             <constraint firstItem="ldX-0K-Neg" firstAttribute="trailing" secondItem="22" secondAttribute="trailing" type="default" id="x0b-B8-nCQ"/>
                         </constraints>
                     </view>
-                    <navigationItem key="navigationItem" title="parler" id="26"/>
-                    <connections>
-                        <outlet property="detailDescriptionLabel" destination="27" id="28"/>
-                        <outlet property="labelConjugations" destination="3a0-P8-hRV" id="k2M-9l-3aM"/>
-                        <outlet property="labelTranslation" destination="OWK-ya-KLG" id="MYn-mX-jov"/>
-                    </connections>
+                    <navigationItem key="navigationItem" title="Française" id="26"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="23" sceneMemberID="firstResponder"/>
             </objects>
@@ -198,12 +151,6 @@ elles parlent</string>
     <classes>
         <class className="DetailViewController" superclassName="UIViewController">
             <source key="sourceIdentifier" type="project" relativePath="./Classes/DetailViewController.h"/>
-            <relationships>
-                <relationship kind="action" name="nextWord:"/>
-                <relationship kind="outlet" name="detailDescriptionLabel" candidateClass="UILabel"/>
-                <relationship kind="outlet" name="labelConjugations" candidateClass="UILabel"/>
-                <relationship kind="outlet" name="labelTranslation" candidateClass="UILabel"/>
-            </relationships>
         </class>
         <class className="MasterViewController" superclassName="UITableViewController">
             <source key="sourceIdentifier" type="project" relativePath="./Classes/MasterViewController.h"/>
@@ -224,6 +171,6 @@ elles parlent</string>
         <simulatedScreenMetrics key="destination" type="retina4"/>
     </simulatedMetricsContainer>
     <inferredMetricsTieBreakers>
-        <segue reference="74V-Lb-kyK"/>
+        <segue reference="jZb-fq-zAk"/>
     </inferredMetricsTieBreakers>
 </document>
