@@ -39,8 +39,11 @@
 		14634376170E97CB0062B1E4 /* sections.plist in Resources */ = {isa = PBXBuildFile; fileRef = 14634375170E97CB0062B1E4 /* sections.plist */; };
 		14634378170E9F180062B1E4 /* pronouns.plist in Resources */ = {isa = PBXBuildFile; fileRef = 14634377170E9F180062B1E4 /* pronouns.plist */; };
 		1463437C170EB91D0062B1E4 /* all_pronouns.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1463437B170EB91D0062B1E4 /* all_pronouns.plist */; };
-		1463437E170EB9310062B1E4 /* m_pronouns.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1463437D170EB9310062B1E4 /* m_pronouns.plist */; };
 		147D226F1714933A005E817D /* WordCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 147D226E1714933A005E817D /* WordCell.m */; };
+		147D22721715BF46005E817D /* fr_bg.png in Resources */ = {isa = PBXBuildFile; fileRef = 147D22701715BF46005E817D /* fr_bg.png */; };
+		147D22731715BF46005E817D /* fr_bg@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 147D22711715BF46005E817D /* fr_bg@2x.png */; };
+		147D22751715CCF3005E817D /* questions.plist in Resources */ = {isa = PBXBuildFile; fileRef = 147D22741715CCF3005E817D /* questions.plist */; };
+		147D22771715CD3D005E817D /* all_questions.plist in Resources */ = {isa = PBXBuildFile; fileRef = 147D22761715CD3D005E817D /* all_questions.plist */; };
 		14BB5C591714526F00D40A46 /* re_verbs.plist in Resources */ = {isa = PBXBuildFile; fileRef = 14BB5C581714526F00D40A46 /* re_verbs.plist */; };
 /* End PBXBuildFile section */
 
@@ -84,9 +87,12 @@
 		14634375170E97CB0062B1E4 /* sections.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = sections.plist; sourceTree = "<group>"; };
 		14634377170E9F180062B1E4 /* pronouns.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = pronouns.plist; sourceTree = "<group>"; };
 		1463437B170EB91D0062B1E4 /* all_pronouns.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = all_pronouns.plist; sourceTree = "<group>"; };
-		1463437D170EB9310062B1E4 /* m_pronouns.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = m_pronouns.plist; sourceTree = "<group>"; };
 		147D226D1714933A005E817D /* WordCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WordCell.h; sourceTree = "<group>"; };
 		147D226E1714933A005E817D /* WordCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WordCell.m; sourceTree = "<group>"; };
+		147D22701715BF46005E817D /* fr_bg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = fr_bg.png; path = "External resources/fr_bg.png"; sourceTree = SOURCE_ROOT; };
+		147D22711715BF46005E817D /* fr_bg@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "fr_bg@2x.png"; path = "External resources/fr_bg@2x.png"; sourceTree = SOURCE_ROOT; };
+		147D22741715CCF3005E817D /* questions.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = questions.plist; sourceTree = "<group>"; };
+		147D22761715CD3D005E817D /* all_questions.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = all_questions.plist; sourceTree = "<group>"; };
 		14BB5C581714526F00D40A46 /* re_verbs.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = re_verbs.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -158,6 +164,8 @@
 		1436403E16F19EDF007EA29F /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				147D22701715BF46005E817D /* fr_bg.png */,
+				147D22711715BF46005E817D /* fr_bg@2x.png */,
 				1436406E16F3134C007EA29F /* loading.png */,
 				1436406316F1C725007EA29F /* French */,
 				1436403F16F19EDF007EA29F /* FrenchVerbConjugations-Info.plist */,
@@ -187,8 +195,9 @@
 				14634375170E97CB0062B1E4 /* sections.plist */,
 				14634377170E9F180062B1E4 /* pronouns.plist */,
 				1463437B170EB91D0062B1E4 /* all_pronouns.plist */,
-				1463437D170EB9310062B1E4 /* m_pronouns.plist */,
 				14BB5C581714526F00D40A46 /* re_verbs.plist */,
+				147D22741715CCF3005E817D /* questions.plist */,
+				147D22761715CD3D005E817D /* all_questions.plist */,
 			);
 			name = French;
 			sourceTree = "<group>";
@@ -268,8 +277,11 @@
 				14634376170E97CB0062B1E4 /* sections.plist in Resources */,
 				14634378170E9F180062B1E4 /* pronouns.plist in Resources */,
 				1463437C170EB91D0062B1E4 /* all_pronouns.plist in Resources */,
-				1463437E170EB9310062B1E4 /* m_pronouns.plist in Resources */,
 				14BB5C591714526F00D40A46 /* re_verbs.plist in Resources */,
+				147D22721715BF46005E817D /* fr_bg.png in Resources */,
+				147D22731715BF46005E817D /* fr_bg@2x.png in Resources */,
+				147D22751715CCF3005E817D /* questions.plist in Resources */,
+				147D22771715CD3D005E817D /* all_questions.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

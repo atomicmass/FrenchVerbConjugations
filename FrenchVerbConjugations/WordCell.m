@@ -14,18 +14,22 @@
 {
     self = [super initWithFrame:frame];
     if (self) {
+        self.backgroundColor = [UIColor clearColor];
+        
         self.labelWord = [[UILabel alloc]initWithFrame:CGRectMake(20, 20, 280, 53)];
         self.labelWord.textColor = [UIColor blackColor];
         self.labelWord.backgroundColor = [UIColor clearColor];
         self.labelWord.textAlignment = NSTextAlignmentCenter;
         self.labelWord.font = [UIFont boldSystemFontOfSize:30];
+        self.labelTranslation.numberOfLines = 0;
         [self addSubview:self.labelWord];
         
-        self.labelTranslation = [[UILabel alloc]initWithFrame:CGRectMake(20, 52, 280, 48)];
+        self.labelTranslation = [[UILabel alloc]initWithFrame:CGRectMake(20, 52, 280, 96)];
         self.labelTranslation.textColor = [UIColor blueColor];
         self.labelTranslation.backgroundColor = [UIColor clearColor];
         self.labelTranslation.textAlignment = NSTextAlignmentCenter;
         self.labelTranslation.font = [UIFont italicSystemFontOfSize:15];
+        self.labelTranslation.numberOfLines = 0;
         [self addSubview:self.labelTranslation];
         
         self.labelDetails = [[UILabel alloc]initWithFrame:CGRectMake(20, 121, 280, 363)];
@@ -37,14 +41,5 @@
     }
     return self;
 }
-
-/*
-// Only override drawRect: if you perform custom drawing.
-// An empty implementation adversely affects performance during animation.
-- (void)drawRect:(CGRect)rect
-{
-    // Drawing code
-}
-*/
 
 @end

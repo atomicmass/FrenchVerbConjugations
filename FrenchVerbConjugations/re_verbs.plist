@@ -6,5 +6,19 @@
 	<string>to learn|j&apos;apprends~tu apprends~il apprend~elle apprend~nous apprenons~vous apprenez~ils apprennent~elles apprennent</string>
 	<key>attendre</key>
 	<string>to wait for|j&apos;attends~tu attends~il attend~elle attend~nous attendons~vous attendez~ils attendent~elles attendent</string>
+	<key>dire</key>
+	<string>to say~to tell|je dis~tu dis~il dit~elle dit~nous disons~vous dites~ils disent~elles disent</string>
+	<key>descendre</key>
+	<string>to descend|je descends~tu descends~il descend~elle descend~nous descendons~vous descendez~ils descendent~elles descendent</string>
+	<key>perdre</key>
+	<string>to lose|je perds~tu perds~il perd~elle perd~nous perdons~vous perdez~il perdent~elle perdent</string>
+	<key>vendre</key>
+	<string>to sell|je vends~tu vends~il vend~elle vend~nous vendons~vous vendez~ils vendent~elles vendent</string>
+	<key>défendre</key>
+	<string>to defend|je défends~tu défends~il défend~elle défend~nous défendons~vous défendez~ils défendent~elles défendent</string>
+	<key>répondre</key>
+	<string>to answer|je réponds~tu réponds~il répond~elle répond~nous répondons~vous répondez~ils répondent~elles répondent</string>
+	<key>fondre</key>
+	<string>to melt|je fonds~tu fonds~il fond~elle fond~nous fondons~vous fondez~ils fondent~elle fondent</string>
 </dict>
 </plist>

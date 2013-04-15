@@ -28,28 +28,16 @@
     }
 }
 
-/*- (void)configureView
-{
-    if (self.verbList) {
-        NSString *key = [verbListKeys objectAtIndex:currentIndex];
-        self.detailDescriptionLabel.text = key;
-        self.title = key;
-        NSArray *p = [[verbList objectForKey:key] componentsSeparatedByString:@"|"];
-        
-        self.labelTranslation.text = [[p objectAtIndex:0] stringByReplacingOccurrencesOfString:@"~" withString:@"\n"];
-        self.labelConjugations.text = [[p objectAtIndex:1] stringByReplacingOccurrencesOfString:@"~" withString:@"\n"];
-    }
-}*/
-
 - (void)viewDidLoad
 {
     [super viewDidLoad];
     [self.collectionView registerClass:[WordCell class] forCellWithReuseIdentifier:@"Cell"];
 }
 
--(void) loadView
+- (void) loadView
 {
     self.view = [[UIView alloc]initWithFrame:[[UIScreen mainScreen] bounds]];
+    self.view.backgroundColor = [UIColor whiteColor];
     
     // Create a flow layout for the collection view that scrolls
     // horizontally and has no space between items
@@ -58,6 +46,11 @@
     flowLayout.minimumLineSpacing = 0;
     flowLayout.minimumInteritemSpacing = 0;
     
+    self.imageView = [[UIImageView alloc] initWithImage:[UIImage imageNamed:@"fr_bg.png"]];
+    self.imageView.frame = self.view.frame;
+    self.imageView.alpha = 0.2;
+    [self.view addSubview:self.imageView];
+    
     // Set up the collection view with no scrollbars, paging enabled
     // and the delegate and data source set to this view controller
     self.collectionView = [[UICollectionView alloc] initWithFrame:self.view.frame collectionViewLayout:flowLayout];
@@ -65,7 +58,7 @@
     self.collectionView.pagingEnabled = YES;
     self.collectionView.delegate = self;
     self.collectionView.dataSource = self;
-    self.collectionView.backgroundColor = [UIColor whiteColor];
+    self.collectionView.backgroundColor = [UIColor clearColor];
     [self.view addSubview:self.collectionView];
 }
 

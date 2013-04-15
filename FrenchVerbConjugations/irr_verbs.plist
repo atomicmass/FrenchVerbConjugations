@@ -28,5 +28,7 @@
 	<string>to know|je connais~to connais~il connaît~elle connaît~nous connaissons~vous connaissez~ils connaissent~elles connaissent</string>
 	<key>commencer</key>
 	<string>to begin|je commence~tu commences~il commence~elle commence~nous commençons~vous commencez~ils commencent~elles commencent</string>
+	<key>contenir</key>
+	<string>to contain|je contiens~tu contiens~il contient~elle contient~nous contenons~vous contenez~	ils contiennent~elles contiennent</string>
 </dict>
 </plist>

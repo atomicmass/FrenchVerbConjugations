@@ -8,5 +8,15 @@
 	<string>to choose|je choisis~tu choisis~il choisit~elle choisit~nous choisissons~vous choisissez~ils choisissent~elles choisissent</string>
 	<key>agir</key>
 	<string>to act|j&apos;agis~tu agis~il agit~elle agit~nous agissons~vous agissez~ils agissent~elles agissent</string>
+	<key>réussir</key>
+	<string>to succeed|je réussis|tu réussis|il réussit|elle réussit|nous réussissons~vous réussissez~ils réussissent~elles réussissent</string>
+	<key>obéir</key>
+	<string>to obey|je obéis~tu obéis~il obéit~elle obéit~nous obéissons~vous obéissez~ils obéissent~elles obéissent</string>
+	<key>maigrir</key>
+	<string>to lose weight|je maigris~tu maigris~il maigrit~elle maigrit~nous maigrissons~vous maigrissez~ils maigrissent~elles maigrissent</string>
+	<key>grossir</key>
+	<string>to gain weight|je grossis~tu grossis~il grossit~elle grossit~nous grossissons~vous grossissez~ils grossissent~elles grossissent</string>
+	<key>établir</key>
+	<string>to establish|je établis~tu éablis~il établit~elle établit~nous établissons~vous établissez~ils établissent~elles établissent</string>
 </dict>
 </plist>

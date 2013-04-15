@@ -15,9 +15,9 @@
 	<key>vous</key>
 	<string>you~plural or formal singular|Vous avez des baguettes</string>
 	<key>mon</key>
-	<string>my~masculine singular|C&apos;est mon chien</string>
+	<string>my~masculine~singular|C&apos;est mon chien</string>
 	<key>ma</key>
-	<string>my~feminine singular|Il est ma sœur</string>
+	<string>my~feminine~singular|Il est ma sœur</string>
 	<key>mes</key>
 	<string>my~plural|Mes amis sont grands</string>
 	<key>son</key>

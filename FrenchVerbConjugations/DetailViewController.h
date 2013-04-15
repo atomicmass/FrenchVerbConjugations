@@ -11,6 +11,7 @@
 @interface DetailViewController : UIViewController <UICollectionViewDelegate, UICollectionViewDataSource, UICollectionViewDelegateFlowLayout>
 
 @property (strong, nonatomic) UICollectionView *collectionView;
+@property (strong, nonatomic) UIImageView *imageView;
 
 @property (strong, nonatomic) NSDictionary *verbList;
 @property (strong, nonatomic) NSArray *verbListKeys;

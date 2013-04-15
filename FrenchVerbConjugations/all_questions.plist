@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>quoi</key>
+	<string>what|C&apos;est quoi?</string>
+	<key>comment</key>
+	<string>how|Comment ça va?</string>
+	<key>quand</key>
+	<string>when|Il part quand?</string>
+	<key>où</key>
+	<string>where|Où est l&apos;eglize?</string>
+	<key>laquelle</key>
+	<string>which|Laquelle?</string>
+	<key>pourquoi</key>
+	<string>why|Pourquoi?</string>
+</dict>
+</plist>

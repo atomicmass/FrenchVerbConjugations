@@ -38,5 +38,7 @@
 	<string>to look for|je cherche~tu cherches~il cherche~elle cherche~nous cherchons~vous cherchez~ils cherchent~elles cherchent</string>
 	<key>cacher</key>
 	<string>to hide|je cache~tu caches~ilchache~elle cache~nous cachons~vous cachez~ils cachent~elles cachent</string>
+	<key>couper</key>
+	<string>to cut|je coupe~tu coupes~il coupe~elle coupe~nous coupons~vous coupez~ils coupent~elles coupent</string>
 </dict>
 </plist>

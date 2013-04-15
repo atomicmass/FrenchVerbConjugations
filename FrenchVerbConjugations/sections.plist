@@ -8,5 +8,7 @@
 	<string>verbs</string>
 	<key>Pronouns</key>
 	<string>pronouns</string>
+	<key>Questions</key>
+	<string>questions</string>
 </dict>
 </plist>

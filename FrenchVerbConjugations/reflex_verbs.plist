@@ -3,6 +3,14 @@
 <plist version="1.0">
 <dict>
 	<key>se coucher</key>
-	<string>to go to bed|je me couche~tu te couches~il se couche~elle se couche~nous nous couchont~vous vous couchez~ils se couchent~elles se couchent</string>
+	<string>to go to bed|je me couche~tu te couches~il se couche~elle se couche~nous nous couchons~vous vous couchez~ils se couchent~elles se couchent</string>
+	<key>se doucher</key>
+	<string>to shower oneself|je me douche~tu te douches~il se douche~elle se douche~nous nous douchons~vous vous couchez~ils se douchent~elles se douchent</string>
+	<key>s&apos;habiller</key>
+	<string>to get dressed|je m&apos;habille~tu t&apos;habilles~il s&apos;habille~elle s&apos;habille~nous nous habillons~vou vous habillez~ils s&apos;habillent~elles s&apos;habillent</string>
+	<key>se reveiller</key>
+	<string>to wake up|je me reveille~tu te reveilles~il se reveille~elle se reveille~nous nous reveillons~vous vous reveillez~ils se reveillent~elles se reveillent</string>
+	<key>se laver</key>
+	<string>to wash oneself|je me lave~tu te laves~il se lave~elle se lave~nous nous lavons~vous vous lavez~ils se lavent~elles se lavent</string>
 </dict>
 </plist>
