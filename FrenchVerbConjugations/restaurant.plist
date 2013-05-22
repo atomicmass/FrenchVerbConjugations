@@ -1,5 +1,48 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
-<dict/>
+<dict>
+	<key>le café</key>
+	<string>coffee~noun~masculine|Je voudrais un café|I would like a coffee</string>
+	<key>le vin</key>
+	<string>wine~noun~masculine|Pour ma mère, un verre de vin rouge|For my mother, a glass of red wine</string>
+	<key>le poulet</key>
+	<string>chicken~noun~masculine|J&apos;aime le poulet et des frites|I like the chicken and french fries</string>
+	<key>le sandwich</key>
+	<string>sandwhich~noun~masculine|Un sandwich au jambon et fromage, s&apos;il vous plaît|A ham and cheese sandwhich, if you please.</string>
+	<key>la crêpe</key>
+	<string>crepe~noun~feminine|J&apos;aime beaucoup les crêpes|I like the crepes very much</string>
+	<key>la faim</key>
+	<string>hunger~noun~feminine|Vous avez faim?|Are you hungry?</string>
+	<key>la viande</key>
+	<string>meat~noun~masculine|Je ne mange pas de viande|I don&apos;t eat meat</string>
+	<key>la salade</key>
+	<string>salad~noun~feminine|Donne mois la salade verte|Give me the green salad</string>
+	<key>le pain</key>
+	<string>bread~noun~masculine|Du pain, du fromage et une tomate|Bread, cheese and a tomato</string>
+	<key>la baguette</key>
+	<string>baguette~noun~feminine|J&apos;adore les baguettes|I love baguettes</string>
+	<key>le thé</key>
+	<string>tea~noun~masculine|Je prends un thé au citron|I&apos;ll take a tea with lemon</string>
+	<key>la soupe</key>
+	<string>soup~noun~feminine|Vous voulez de la soupe?|Would you like some soup?</string>
+	<key>l&apos;alcool</key>
+	<string>alcohol~noun~masculine|Je bois de l&apos;alcool|I drink alcohol</string>
+	<key>la biére</key>
+	<string>beer~noun~feminine|Une biére, s&apos;il vous plaît|A beer, please</string>
+	<key>le repas</key>
+	<string>meal~noun~masculine|Ils mangent le repas|They are eating the meal</string>
+	<key>le lait</key>
+	<string>milk~noun~masculine|Un café au lait|A coffee with milk</string>
+	<key>le gâteau</key>
+	<string>cake~noun~masculine|J&apos;adore le gâteau|I love cake</string>
+	<key>le poisson</key>
+	<string>fish~noun~masculine|C&apos;est un poisson|This is a fish</string>
+	<key>le jus</key>
+	<string>juice~noun~masculine|Pour mon enfant, un jus d&apos;orange|For my child, an orange juice</string>
+	<key>le chocolat</key>
+	<string>chocolate~noun~masculine|Un café, un thé au lait, et un chocolat chaud, s&apos;il vous plaît|A coffee, a tea with milk and a hot chocolate, please</string>
+	<key>le sucre</key>
+	<string>sugar~noun~masculine|Le sucre, s&apos;il vous plaît|Sugar, please</string>
+</dict>
 </plist>

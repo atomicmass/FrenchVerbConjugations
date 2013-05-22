@@ -1,5 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
-<dict/>
+<dict>
+	<key>la chambre</key>
+	<string>room~noun~feminine|La chambre est trop petite|The room is too small</string>
+	<key>la reservation</key>
+	<string>reservation~noun~feminine|J&apos;ai une reservation pour deux nuits|I have a reservation for two nights</string>
+	<key>le lit</key>
+	<string>bed~noun~masculine|Je voudrais une chambre a deux lit et une chambre a un lit|I would like a room with two beds and a room with one bed</string>
+	<key>le chauffage</key>
+	<string>heating~noun~masculine|Le chauffage ne marche pas|The heating isn&apos;t working</string>
+	<key>la serviette</key>
+	<string>towel~noun~feminine|J&apos;ai besoin des serviettes|I need towels</string>
+</dict>
 </plist>

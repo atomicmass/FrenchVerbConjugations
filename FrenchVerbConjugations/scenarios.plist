@@ -1,5 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
-<dict/>
+<dict>
+	<key>Greetings &amp; expressions</key>
+	<string>greetings</string>
+	<key>In the restaurant</key>
+	<string>restaurant</string>
+	<key>At the hotel</key>
+	<string>hotel</string>
+	<key>The campsite</key>
+	<string>campsite</string>
+</dict>
 </plist>

@@ -1,5 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
-<dict/>
+<dict>
+	<key>la piscine</key>
+	<string>swimming pool~noun~feminine|Où et la piscine?|Where is the swimming pool</string>
+	<key>ascheter</key>
+	<string>to buy~verb|Où est-ce que je peux acheter des œufs?|Where can I buy eggs?</string>
+	<key>la poubelle</key>
+	<string>dirt bin~noun~masculine|Où se trouve les pubelles?|Where are the dirt bins?</string>
+	<key>le bloc sanitaire</key>
+	<string>toilet block~noun~masculine|Un camping avec le bloc sanitaire|A campsite with a toilet block</string>
+	<key>le camping</key>
+	<string>campsite~noun~masculine|Faire du camping|To go camping</string>
+</dict>
 </plist>

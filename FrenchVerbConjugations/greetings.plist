@@ -1,5 +1,36 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
-<dict/>
+<dict>
+	<key>bonjour</key>
+	<string>good day|Bonjour madame, comment allez vous?|Good day madam, how are you?</string>
+	<key>ça va</key>
+	<string>how are you?~informal|Bonjour, ça va? Ça va, et toi?|Good day, how are you? I&apos;m fine and you?</string>
+	<key>salut</key>
+	<string>hello~informal|Salut les filles|Hello girls</string>
+	<key>bonne journée</key>
+	<string>have a good day|Au revoir et bonne journée|Good bye and good day</string>
+	<key>au revoir</key>
+	<string>good bye|Au revoir, monsieur|Good by, sir</string>
+	<key>bienvenu</key>
+	<string>welcome|Bienvenué, mademoiselle|Welcome, miss</string>
+	<key>merci</key>
+	<string>thank you|Du vin, merci beaucoup|Some wine, thank you very much</string>
+	<key>à plus tard</key>
+	<string>see you later|A plus tard mon enfant|See you later my child</string>
+	<key>oui</key>
+	<string>yes|Vous avez soif? Oui|Are you thirsty? Yes</string>
+	<key>comment allez vous</key>
+	<string>how are you?~formal|Bonjour madame. Comment allez vous aujourd&apos;hui?|Good day madam. How are you today?</string>
+	<key>de rien</key>
+	<string>you&apos;re welcome|Merci beaucoup! De rien|Thank you very much! You&apos;re welcome</string>
+	<key>bonne nuit</key>
+	<string>good night|Bonne nuit. À bientôt|Good night. See you soon</string>
+	<key>à bientôt</key>
+	<string>see you soon|C&apos;est tout pour aujourd&apos;hui. À bientôt|That&apos;s all for today. See you soon</string>
+	<key>non</key>
+	<string>no|As-tu une pomme? Non|Do you have an apple? No</string>
+	<key>à demain</key>
+	<string>till tomorrow|Au revoir. À demain|Good bye. Till tomorrow</string>
+</dict>
 </plist>
