@@ -3,7 +3,7 @@
 //  FrenchVerbConjugations
 //
 //  Created by Sean Coetzee on 2013/04/09.
-//  Copyright (c) 2013 Epinion. All rights reserved.
+//  Copyright (c) 2013 Blacklemon. All rights reserved.
 //
 
 #import <UIKit/UIKit.h>
@@ -13,5 +13,6 @@
 @property (strong, nonatomic) IBOutlet UILabel *labelWord;
 @property (strong, nonatomic) IBOutlet UILabel *labelTranslation;
 @property (strong, nonatomic) IBOutlet UILabel *labelDetails;
+@property (strong, nonatomic) IBOutlet UILabel *labelDetailTranslation;
 
 @end

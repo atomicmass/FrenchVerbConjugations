@@ -44,5 +44,7 @@
 	<string>sandwich~m|Mon déjeuner : Des sandwichs et fromage</string>
 	<key>le fromage</key>
 	<string>cheese~m|Le fromage est bon</string>
+	<key>le chasseur</key>
+	<string>hunter/soldier~m|Le chasseur mange du pain</string>
 </dict>
 </plist>

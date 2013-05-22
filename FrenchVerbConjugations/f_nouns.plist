@@ -3,30 +3,32 @@
 <plist version="1.0">
 <dict>
 	<key>la chaise</key>
-	<string>chair~f|Le chat et sur la chaise</string>
+	<string>chair~f|Le chat et sur la chaise|The cat is on the chair</string>
 	<key>la mère</key>
-	<string>mother~f|Voici ma mère</string>
+	<string>mother~f|Voici ma mère|Here is my mother</string>
 	<key>la jupe</key>
-	<string>skirt~f|Ma jupe est rouge</string>
+	<string>skirt~f|Ma jupe est rouge|My skirt is red</string>
 	<key>la robe</key>
-	<string>dress~f|Ta jolie robe noire</string>
+	<string>dress~f|Ta jolie robe noire|My nice black dress</string>
 	<key>la femme</key>
-	<string>woman~f|Je suis une grande femme</string>
+	<string>woman~f|Je suis une grande femme|I am a tall woman</string>
 	<key>la chemise</key>
-	<string>shirt~f|Ma chemise est sale</string>
+	<string>shirt~f|Ma chemise est sale|My shirt is dirty</string>
 	<key>la chaussure</key>
-	<string>shoe~f|J&apos;ai les chaussures rouges</string>
+	<string>shoe~f|J&apos;ai les chaussures rouges|I like the red shoes</string>
 	<key>la maison</key>
-	<string>house~f|Je quitte la maison</string>
+	<string>house~f|Je quitte la maison|I am leaving the house</string>
 	<key>l&apos;amie</key>
-	<string>friend~f|Mes amies sont jolies</string>
+	<string>friend~f|Mes amies sont jolies|My friends are nice</string>
 	<key>la sœur</key>
-	<string>sister~f|Ma sœur </string>
+	<string>sister~f|Ma sœur a une robe verte|My sister has a green dress</string>
 	<key>la voix</key>
-	<string>voice~f|Sa voix est jolie</string>
+	<string>voice~f|Sa voix est jolie|His voice is nice</string>
 	<key>la fleur</key>
-	<string>flower~f|J&apos;aime ses fleurs</string>
+	<string>flower~f|J&apos;aime ses fleurs|I like her flowers</string>
 	<key>la voituré</key>
-	<string>car~f|Il a une voituré rouge</string>
+	<string>car~f|Il a une voituré rouge|He has a red car</string>
+	<key>la chambre</key>
+	<string>room~f|La chambre est trop petite|The room is too small</string>
 </dict>
 </plist>

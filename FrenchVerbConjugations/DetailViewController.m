@@ -3,7 +3,7 @@
 //  FrenchVerbConjugations
 //
 //  Created by Sean Coetzee on 2013/03/14.
-//  Copyright (c) 2013 Epinion. All rights reserved.
+//  Copyright (c) 2013 Blacklemon. All rights reserved.
 //
 
 #import "DetailViewController.h"
@@ -60,6 +60,43 @@
     self.collectionView.dataSource = self;
     self.collectionView.backgroundColor = [UIColor clearColor];
     [self.view addSubview:self.collectionView];
+
+    CGFloat w = self.view.frame.size.width;
+    CGFloat h = self.view.frame.size.height;
+    
+    CGRect frame = CGRectMake(0, h - 120, w, 120);
+    self.pageControl = [[UIPageControl alloc] initWithFrame:frame];
+    self.pageControl.currentPageIndicatorTintColor = [UIColor blackColor];
+    self.pageControl.pageIndicatorTintColor = [UIColor lightGrayColor];
+    
+    // Add a target that will be invoked when the page control is
+    // changed by tapping on it
+    [self.pageControl addTarget:self action:@selector(pageControlChanged:) forControlEvents:UIControlEventValueChanged];
+    
+    // Set the number of pages to the number of pages in the paged interface
+    // and let the height flex so that it sits nicely in its frame
+    self.pageControl.numberOfPages = 3;
+    self.pageControl.autoresizingMask = UIViewAutoresizingFlexibleHeight;
+    [self.view addSubview:self.pageControl];
+}
+
+- (void)scrollViewDidEndDecelerating:(UIScrollView *)scrollView
+{
+    CGFloat pageWidth = self.collectionView.frame.size.width;
+    int currentPage = self.collectionView.contentOffset.x / pageWidth;
+    if(currentPage == verbListKeys.count - 1) {
+        self.pageControl.currentPage = 2;
+    }
+    else if(currentPage == 0) {
+        self.pageControl.currentPage = 0;
+    }
+    else {
+        self.pageControl.currentPage = 1;
+    }
+}
+
+- (void)pageControlChanged:(id)sender
+{
 }
 
 - (void)didReceiveMemoryWarning
@@ -97,8 +134,17 @@
     
     cell.labelWord.text = key;
     cell.labelTranslation.text = [[p objectAtIndex:0] stringByReplacingOccurrencesOfString:@"~" withString:@"\n"];
-    cell.labelDetails.text = [[p objectAtIndex:1] stringByReplacingOccurrencesOfString:@"~" withString:@"\n"];
-        
+    
+    cell.labelDetails.text = @"";
+    if(p.count > 1) {
+        cell.labelDetails.text = [[p objectAtIndex:1] stringByReplacingOccurrencesOfString:@"~" withString:@"\n"];
+    }
+    
+    cell.labelDetailTranslation.text = @"";
+    if(p.count > 2) {
+        cell.labelDetailTranslation.text = [[p objectAtIndex:2] stringByReplacingOccurrencesOfString:@"~" withString:@"\n"];
+    }
+    
     return cell;
 }
 

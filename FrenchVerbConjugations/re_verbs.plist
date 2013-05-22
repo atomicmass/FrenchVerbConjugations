@@ -20,5 +20,7 @@
 	<string>to answer|je réponds~tu réponds~il répond~elle répond~nous répondons~vous répondez~ils répondent~elles répondent</string>
 	<key>fondre</key>
 	<string>to melt|je fonds~tu fonds~il fond~elle fond~nous fondons~vous fondez~ils fondent~elle fondent</string>
+	<key>prendre</key>
+	<string>to take|je prends~tu prends~il prends~elle prends~nous prendons~vous prendez~ils prendent~elles prendent</string>
 </dict>
 </plist>

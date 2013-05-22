@@ -10,5 +10,7 @@
 	<string>pronouns</string>
 	<key>Questions</key>
 	<string>questions</string>
+	<key>Scenarios</key>
+	<string>scenarios</string>
 </dict>
 </plist>

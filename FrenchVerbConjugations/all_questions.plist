@@ -11,8 +11,16 @@
 	<key>où</key>
 	<string>where|Où est l&apos;eglize?</string>
 	<key>laquelle</key>
-	<string>which|Laquelle?</string>
+	<string>which one~feminine~singluar|Je veux la pomme. Laquelle?</string>
+	<key>lequel</key>
+	<string>which one~masculine~singular|Lequel veux-tu?</string>
 	<key>pourquoi</key>
-	<string>why|Pourquoi?</string>
+	<string>why|Pourquoi pas moi?|Why not me?</string>
+	<key>quel</key>
+	<string>which~masculine~singular|Quel livre as-tu acheté?</string>
+	<key>quelle</key>
+	<string>which~feminine|Quelles chaussures?</string>
+	<key>combien</key>
+	<string>how many|Vous êtes combien?</string>
 </dict>
 </plist>

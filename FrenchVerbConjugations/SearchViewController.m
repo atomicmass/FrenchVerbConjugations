@@ -3,7 +3,7 @@
 //  FrenchVerbConjugations
 //
 //  Created by Sean Coetzee on 2013/04/02.
-//  Copyright (c) 2013 Epinion. All rights reserved.
+//  Copyright (c) 2013 Blacklemon. All rights reserved.
 //
 
 #import "SearchViewController.h"
